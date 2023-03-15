@@ -23,23 +23,21 @@ img[src]{
 legend{
         font-weight: bold;
         padding-left: 30px;
+        padding-top: 8px;
 }
 
 #inputs{
         display:flex;
-        gap: 20px;
 }
 
 .firstEmailPassword{
         display: flex;
         flex-direction: column;
-        padding-left: 30px;
         align-items: center;
 }
 
 form{
         width: 80%;
-        margin: 0 auto;
 }
 
 label,input{
@@ -53,4 +51,9 @@ label,input{
         display: flex;
         flex-direction: column;
         align-items: center;
+}
+
+.second-container{
+        background-color: ghostwhite;
+        box-shadow: 5px 5px 2px rgba(0,0,0,.8);
 }
