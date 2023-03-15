@@ -46,6 +46,10 @@ label,input{
         margin: 2px;
 }
 
+input:focus{
+        border: blue;
+}
+
 
 .lastPhoneConfirm{
         display: flex;
