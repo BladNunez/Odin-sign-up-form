@@ -14,3 +14,18 @@ body{
         font-stretch: var(--text-stretch);
         padding-left: 30px;
 }
+
+img[src]{
+        height: 700px;
+        background-size: cover;
+}
+
+legend{
+        font-weight: bold;
+        padding-left: 30px;
+}
+
+#inputs{
+        display:flex;
+}
+
