@@ -2,3 +2,15 @@
         display:flex;
         justify-content: center;
 }
+
+body{
+        background-color: floralwhite;
+}
+
+#p {
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        --text-stretch: 100%;
+        font-stretch: var(--text-stretch);
+        padding-left: 30px;
+}
